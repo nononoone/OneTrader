@@ -28,6 +28,7 @@ One Trader
 <!-- /TOC -->
 # 1. ¼Ü¹¹
 ## 1.1. ²ã´Î»®·Ö:
+![²ã´ÎÊ¾Í¼](./images/layers.png)
 ```mermaid
 graph BT
 subgraph ½»Ò×²ßÂÔ²ã
@@ -43,6 +44,7 @@ end
 ```
 
 ## 1.2. Ä£¿é»®·Ö£º
+![Ä£¿éÊ¾Í¼](./images/modules.png)
 ```mermaid
 graph LR 
 ÊĞ³¡ĞÅÏ¢((ÊĞ³¡ĞÅÏ¢))
@@ -128,6 +130,7 @@ TickÖĞĞèÒªaskÓëbidÖ÷ÒªÊÇ¿¼ÂÇµ½»Ø²âĞèÒª(´éºÏ³É½»Ò»°ãÈ¡bid, ask, lastµÄÖĞ¼ä¼Û¸ñ),Ä
 |Ä£¿é×´Ì¬|Ìá¹©µ±Ç°Ä£¿éµÄ¹¤×÷×´Ì¬ĞÅÏ¢|
 |||
 
+![ÊĞ³¡Êı¾İ](./images/marketdata.png)
 ```mermaid
 sequenceDiagram
 participant ÆäËüÄ£¿é
@@ -149,6 +152,8 @@ end
 ÆäËüÄ£¿é->>ÊĞ³¡Êı¾İÄ£¿é:Ìí¼Ó²éÑ¯½Ó¿Ú
 ÆäËüÄ£¿é->>ÊĞ³¡Êı¾İÄ£¿é:²éÑ¯
 ```
+
+![Êı¾İ´¦Àí](./images/dataflow.png)
 ```mermaid
 graph TB
 ·şÎñ¶Ë-->Êı¾İ½ÓÊÕÆ÷
@@ -183,6 +188,8 @@ end
 + TODO
 ### 1.2.5. ²ßÂÔÄ£¿é
 ²ßÂÔÄ£¿éÆô¶¯Á÷³Ì:
+
+![²ßÂÔÁ÷³Ì](./images/strategyflow.png)
 ```mermaid
 graph LR
 ½ÓÈëÒÀÀµµÄÄ£¿é --> ²ßÂÔ³õÊ¼»¯
